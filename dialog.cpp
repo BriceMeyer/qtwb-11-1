@@ -35,6 +35,7 @@ void Dialog::on_buttonBox_accepted()
 
 void Dialog::clear()
 {
+    if(m_list.count() == 0) return;
     qDeleteAll(m_list);
     m_list.clear();
     update();
