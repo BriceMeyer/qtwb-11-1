@@ -39,6 +39,19 @@ int main(int argc, char *argv[])
     
     float value = newFunction(start, incrementM, incrementS);
 
+    float sqrtPI = 1.772453850905516027298167483341145128;
+
+    std::cout << sqrtPI << std::endl;
+
+    float[8] listInts = [0, 1, 2, 3, 4, 5, 6, 7];
+
+    float sumBefore = .0, sumAfter = .0;
+
+    foreach(float member, listInts){
+        sumBefore += member;
+        member *= sqrtPI;
+        sumAfter += member;
+    }
 
     return 0;
 }
