@@ -10,4 +10,6 @@ int main(int argc, char *argv[])
     return a.exec();*/
 
     std::cout << "OMMGGG marche-ce ?" << std::endl;
+
+    return 0;
 }
