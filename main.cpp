@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     
     float value = newFunction(start, incrementM, incrementS);
 
-
+    std::cout << "Olalah je fais des trucs par ici aussi, des trucs qui sont différents en + c'est incroyable. On va bien voir comment ça se merge, j'espere que ça fera le truc qui est cool a voir ou on a juste a retirer les lignes qui nous plaisent pas..."
+    
     return 0;
 }
